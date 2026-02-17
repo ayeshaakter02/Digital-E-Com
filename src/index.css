@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  .container {
+    @apply w-360 mx-auto;
+  }
+}
+
+@theme {
+  --font-Libre:  "Libre Franklin", sans-serif;
+  --font-Plus: "Plus Jakarta Sans", sans-serif;
+  --color-primary: #0F73F6
+}
